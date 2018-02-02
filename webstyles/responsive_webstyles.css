@@ -1,0 +1,50 @@
+@media (max-width : 768px) {
+	*{
+		font-size: 28px;
+	}
+
+	#banner.wrapper{
+	background-image:url('../webimages/tablet_banner.jpg');
+	}
+
+	#banner.content{
+		padding-top: 60%;
+	}
+
+	#skills_icons img{
+		width: 2em;
+	}
+
+	.icon_section{
+		width: 3em;
+	}
+}
+
+@media (max-width : 370px) {
+
+	*{
+		font-size: 18px;
+	}
+
+	#nav_logo img{
+		width: 1.5em;
+	}
+
+	#banner.wrapper{
+	background-image:url('../webimages/mobile_banner.jpg');
+	}
+
+	#banner.content{
+		padding-top: 60%;
+	}
+
+	#skills_icons img{
+		width: 2em;
+	}
+
+	.icon_section{
+		width: 4em;
+		padding-top: 1em;
+
+	}
+}
